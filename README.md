@@ -1,7 +1,5 @@
 # Control_Flow
 
-## Instructions
-
 ### Overview
 You will be building an interactive command-line program which will take input from the user, process it, and then display the results.  It will be built in phases and will begin from a presentation-only system to a fully function request-response system.  
 
@@ -15,7 +13,7 @@ Next, set up a simple interaction with the user.  After printing the valid chara
 #### Scanner class
 To read input from the console, one of the easiest ways is to use the framework class `Scanner`. 
 
-Implement the following:  
+#### Implement the following:  
 
 After the name prompt, ask the user if they wish to continue to the interactive portion. If they enter 'yes' or 'y', continue.  Otherwise quit the program with a message to please return later to complete the survey.  
 
@@ -39,6 +37,7 @@ Use a loop to repeatedly ask the user some questions. What will be done is to ga
   * Enter a random number between 1 and 50.
 
 **Generating output** 
+
 Now that you have 6 or 7 pieces of information it's time to generate the lottery numbers.  The output will 5 random numbers between 1 and 65, and the "magic ball" between 1 and 75.
 
 To accomplish this you should have 3 random integers, generated in the same way as in the previous exercises.  You may also want to declare constants for the max values of each set of of numbers.   
